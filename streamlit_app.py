@@ -36,9 +36,6 @@ if ingredients_list :
     for fruit_choosen in ingredients_list : 
         ingredients_string += fruit_choosen + ' ' 
 
-        if len(ingredients_string) == 5 : 
-            st.write('you can only select upto 5 options. Remove an option first')
-
     # st.write(ingredients_string)
 
     
